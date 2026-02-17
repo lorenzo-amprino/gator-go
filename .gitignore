@@ -1,0 +1,11 @@
+# Executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go binaries
+*.bin
+*.o
+*.a
