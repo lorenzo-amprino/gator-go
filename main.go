@@ -35,6 +35,8 @@ func main() {
 	commands.Register("agg", aggHandler)
 	commands.Register("addfeed", addFeedHandler)
 	commands.Register("feeds", feedsHandler)
+	commands.Register("follow", followHandler)
+	commands.Register("following", followingHandler)
 
 	args := os.Args[1:]
 
